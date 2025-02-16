@@ -47,6 +47,8 @@ cd Hero_section
 ### 2. Open Locally
 Simply open the index.html file in your preferred browser.
 
+---
+
 ## 🌐 Deployment (Vercel)
 Ensure Vercel CLI is installed:
 
