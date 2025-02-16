@@ -44,24 +44,20 @@ An interactive **Hero Section** with smooth animations inspired by the **Pha5e**
 git clone https://github.com/SJReddy1/Hero_section.git
 cd Hero_section
 ```
-2. Open Locally
+### 2. Open Locally
 Simply open the index.html file in your preferred browser.
 
-🌐 Deployment (Vercel)
+## 🌐 Deployment (Vercel)
 Ensure Vercel CLI is installed:
 
-bash
-Copy
-Edit
+```
 npm install -g vercel
+```
 Deploy the project:
-
-bash
-Copy
-Edit
+```
 vercel
+```
 
-
-🧑‍💻 Author
-   Soreddy Jitendra Reddy
+## 🧑‍💻 Author
+   Soreddy Jitendra Reddy <br/>
    GitHub: @SJReddy1
