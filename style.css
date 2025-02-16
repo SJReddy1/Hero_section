@@ -1,0 +1,118 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a1a;
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Section */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Main Text Styling */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vw;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+/* Image Container */
+.image-container {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  transition: transform 0.4s ease, opacity 0.5s ease;
+}
+
+/* Image Styling */
+.hover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Image Text (Project Title) */
+.image-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Image Subtitle */
+.image-subtitle {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  color: #b3b3b3;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Image Positions */
+#img1 {
+  top: 20%;
+  left: 15%;
+}
+
+#img2 {
+  top: 10%;
+  right: 15%;
+}
+
+#img3 {
+  bottom: 15%;
+  left: 25%;
+}
+
+#img4 {
+  bottom: 20%;
+  right: 25%;
+}
+
+/* Hover Effects */
+.hero-container:hover .image-container {
+  opacity: 0.2; /* Fade out other images */
+}
+
+.image-container.active {
+  opacity: 1 !important; /* Keep active image visible */
+  z-index: 5; /* Bring it to front */
+}
+
+/* Show Image Text on Hover */
+.image-container.active .image-text,
+.image-container.active .image-subtitle {
+  opacity: 1;
+}
