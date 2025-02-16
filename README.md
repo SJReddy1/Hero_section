@@ -60,6 +60,8 @@ Deploy the project:
 vercel
 ```
 
+---
+
 ## 🧑‍💻 Author
    Soreddy Jitendra Reddy <br/>
    GitHub: @SJReddy1
