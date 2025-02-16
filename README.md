@@ -12,7 +12,7 @@ An interactive **Hero Section** with smooth animations inspired by the **Pha5e**
 
 ## 📂 Project Structure
 
-
+/Hero-section ├── index.html → Main HTML (Structure) ├── style.css → CSS (Animations, Layout) └── script.js → JavaScript (GSAP Animation Logic)
 ---
 
 ## 🛠️ Tech Stack
